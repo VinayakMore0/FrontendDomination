@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#parent {
+    width: 30vw;
+    height: 20vh;
+    background-color: cyan;
+}
+
+#child {
+    width: 50%;
+    height: 50%;
+    background-color: salmon;
+}
+
+h1 {
+    /* font-size: 7vmax; */
+}
+
+#parent2 {
+    background-color: rosybrown;
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 0.5rem;
+}
+
+#parent3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    background-color: lightgreen;
+}
+
+.child3 {
+    width: 120px;
+    height: 120px;
+    background-color: crimson;
+    border: 2px solid #fff;
+}
+
+#parent4 {
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+
+#child4 {
+    width: 60%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+/* #child42 {
+    width: 60%;
+    height: 100vh;
+    background-color: lightsalmon;
+} */
+
+#box {
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+}
+
+@media (max-width:600px) {
+    #box {
+        background-color: crimson;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+
