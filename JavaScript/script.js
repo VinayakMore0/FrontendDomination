@@ -107,7 +107,7 @@ function wxyz() {
 console.log(wxyz());
 
 // Array
-var users = ["vipul", "yash", "aaryan", "vinayak", "anish"];
+var users = ["Vipul", "Yash", "Aaryan", "Vinayak", "Anish"];
 console.log(users[4]);
 
 var arrR = [1, 2, "3", function(){}, [], 4];
@@ -121,7 +121,7 @@ arr.forEach(element => {
 // Object
 
 var obj = {
-    name: "yash",
+    name: "Yash",
     age: 20,
     email: "yash@gmail.com",
     contact: 9993029322
