@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7</title>
+    <style>
+        #center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #downloadCapsule {
+            width: 300px;
+            height: 16px;
+            background-color: #dadada;
+            border-radius: 100px;
+        }
+
+        #progress {
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) .2s;
+            width: 4%;
+            height: 100%;
+            border-radius: 100px;
+            background-color: rgb(65, 180, 65);
+        }
+
+        #center h3 {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Display a progress bar that updates in realtime, showing the progress of a task, download, or form submission.</h3> <br><br>
+
+    <div id="center">
+        <h3 aria-live="polite">Download Completed</h3>
+        <div id="downloadCapsule">
+            <div id="progress"></div>
+        </div>
+    </div>    
+
+    <script src="Q7.js"></script>
+
+</body>
+</html>

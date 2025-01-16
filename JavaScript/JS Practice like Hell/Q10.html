@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q10</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            height: 1200px;
+        }
+
+        #progressContainer {
+            width: 100%;
+            height: 2%;
+            background-color: #f3f3f3;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+
+        #progressBar {
+            height: 100%;
+            background-color: #4caf50;
+            width: 0%;
+            transition: width 0.2s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Show a progress bar which shows how much page has been scrolled.</h3> <br><br>
+    
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+
+    <h2>Scroll Down👇</h2>
+
+
+    <script src="Q10.js"></script>
+
+</body>
+</html>
