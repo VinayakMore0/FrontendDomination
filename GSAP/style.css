@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* #box {
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+} */
+
+#box1 {
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+}
+
+#box2 {
+    height: 150px;
+    width: 150px;
+    background-color: royalblue;
+}
+
+#box3 {
+    height: 150px;
+    width: 150px;
+    background-color: lightseagreen;
+}
+
+
+
+
+
