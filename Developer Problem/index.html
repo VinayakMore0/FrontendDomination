@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w-full min-h-[200vh] bg-zinc-900 text-white p-20">
+      <h2 id="status" class="font-semibold mb-3">
+        Status: <span>Not block</span>
+      </h2>
+      <button
+        id="block"
+        class="bg-red-600 px-8 py-2 rounded-md font-semibold text-sm mb-10 cursor-pointer"
+      >
+        Block
+      </button>
+      <button
+        id="unblock"
+        class="bg-green-600 px-8 py-2 rounded-md font-semibold text-sm mb-10 cursor-pointer"
+      >
+        Unblock
+      </button>
+
+      <br /><br />
+
+      <button
+        id="getUser"
+        class="bg-green-600 px-8 py-2 rounded-md font-semibold text-sm mb-10 cursor-pointer"
+      >
+        Get New Card
+      </button>
+      <div id="parent" class="cards flex gap-5 flex-wrap"></div>
+
+      <br /><br />
+
+      <button id="hide" class="fixed bg-red-600 px-8 py-2 rounded-md font-semibold text-sm mb-10 cursor-pointer">Stop scroll</button>
+      <!-- <h2 class="text-2xl leading-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus optio cupiditate! Reprehenderit, sapiente ipsa consequatur expedita, aliquid repellat maiores alias voluptatem vitae aliquam soluta similique blanditiis debitis quaerat. Necessitatibus maiores cupiditate aspernatur culpa temporibus dolores autem aperiam distinctio? Quos a voluptates, natus molestiae sapiente voluptatum tenetur nobis hic repellat provident nulla dolore, corporis aperiam laboriosam ex quam, molestias dicta soluta nostrum praesentium maiores recusandae excepturi eaque similique? Nulla nostrum itaque saepe esse suscipit, harum porro unde ab distinctio magni, quo cum animi officiis totam provident corrupti. At, voluptatum temporibus aut rerum dignissimos necessitatibus, commodi a rem autem cum asperiores unde quia eaque quidem architecto quo, fuga itaque aspernatur quis! Asperiores delectus debitis minus, corporis, accusamus eaque hic accusantium excepturi repellendus odio, modi minima consequuntur ab commodi placeat temporibus dolores suscipit culpa eum soluta ullam impedit perferendis voluptas. Beatae officia eum sequi ipsum impedit, veritatis eius dolorum a dicta, corrupti et rem accusamus perferendis cumque maiores voluptates. Blanditiis dignissimos beatae amet corporis obcaecati omnis magni ratione possimus, dolor facere soluta sit, optio cumque eveniet. Quaerat, aliquid quo! Nihil tenetur aliquam consequatur in nemo vel praesentium illum, voluptates cum magnam molestiae ratione ab vitae nesciunt, laudantium porro quisquam id sit. Labore sapiente eos ipsum eveniet expedita in nobis, veniam similique hic obcaecati quia ratione at rem omnis nemo. Nisi aperiam saepe molestias enim. Ipsum commodi similique maiores animi! Libero eius adipisci, veniam corporis pariatur ipsum beatae aut illum nobis ducimus. Modi voluptas eum repellat ullam? Nostrum molestiae voluptas deserunt aut dolor nisi est ab fugiat repudiandae consequatur harum, molestias voluptate quae. Delectus harum, repellat nemo earum id atque voluptates sequi aliquid voluptatem ab tempore debitis magni esse asperiores expedita corporis optio minus nesciunt. Sapiente optio neque odio quaerat voluptatum facilis numquam dolorum sequi. Odit, perferendis temporibus? Vitae culpa quae, exercitationem facilis porro reiciendis, aliquid fuga cum molestiae enim quo soluta illum voluptates ea odit a blanditiis eligendi expedita animi natus, deserunt molestias vero. Eius, nam rerum possimus sed praesentium delectus? Error deserunt, tempore quod vel amet animi tempora saepe ipsam, excepturi nostrum, cumque quas exercitationem? Magni consectetur quas ex nisi harum itaque, eligendi magnam commodi aut id deserunt reiciendis labore iste vitae. Autem ipsa nulla doloremque sapiente ea corrupti architecto recusandae dicta? Similique, reiciendis perferendis doloribus dolorum sapiente aliquam odit tenetur nulla enim nihil ab fugit quia sunt voluptas. Soluta mollitia explicabo nisi obcaecati ipsa inventore eum reprehenderit repellendus, labore dolore?</h2> -->
+    
+      <br><br>
+
+      <div class="relative w-fit mt-10">
+        <button id="show" class="bg-red-600 px-8 py-2 rounded-md font-semibold text-sm mb-10 cursor-pointer">Stop scroll</button>
+        <div class="hidden tooltip w-full absolute -top-1 z-[2] -translate-y-full left-0 bg-green-500 p-1 px-3 font-semibold text-xs rounded-sm">
+            hello
+        </div>
+      </div>
+      
+    
+    
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
